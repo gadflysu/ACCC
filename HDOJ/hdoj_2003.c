@@ -3,12 +3,12 @@
 
 int main()
 {
-	double x;
-	
-	while (scanf("%lf", &x) == 1) {
-		printf("%.2lf\n", fabs(x));
-	}
+    double x;
+    
+    while (scanf("%lf", &x) == 1) {
+        printf("%.2lf\n", fabs(x));
+    }
 
-	return 0;
+    return 0;
 }
 
